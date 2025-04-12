@@ -1,0 +1,20 @@
+div div img {
+    height: 350px !important;
+}
+
+.active {
+    border-bottom: 2px solid #101010;
+}
+
+@media (min-width : 1234px) {
+    .me-6 {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .category-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}

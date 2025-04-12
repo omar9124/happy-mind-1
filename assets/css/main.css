@@ -1,0 +1,61 @@
+/* Main font used in the site we use as an example ("Nunito") */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #FFF0E5 !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0px 8px;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #F7941E;
+    border-bottom: 1px solid #F7941E;
+}
+
+.btn-danger,
+.btn-outline-danger,
+.btn {
+    border-radius: 40px;
+    padding: 8px 20px;
+}
+
+.bubble-font {
+    font-family: "Bubblegum Sans";
+}
+.footer-link.footer-link{
+    font-size: larger;
+    font-weight: bolder;
+    transition: .2s;
+}
+.footer-link:hover{
+    color: black !important;
+}

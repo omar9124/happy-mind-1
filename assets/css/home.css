@@ -1,0 +1,173 @@
+/* Hero Styles */
+
+.hero {
+    background-image: url('../images/home/hero.jpg');
+    height: 88vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .hero-content {
+        margin-right: 160px !important;
+    }
+}
+
+.hero-content .hero-text {
+    color: #fff;
+    text-shadow: rgb(107, 107, 132) 4px 5px 1px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero-content .hero-sub {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.clouds {
+    width: 100%;
+    mask-image: url('../images/home/slider-cloud-bg.png');
+    background-color: #fff;
+    mask-size: contain;
+    mask-position: bottom center;
+    mask-repeat: repeat-x;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+}
+
+/* About Section */
+
+section.about {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+}
+
+section.about img {
+    width: 325px;
+    height: 325px;
+    object-fit: cover;
+}
+
+/* creative section */
+section.creative-learning {
+    padding: 50px 0;
+}
+
+.ctr-1 {
+    padding: 0px;
+}
+
+.content-row {
+    padding: 60px;
+}
+
+.img-1 {
+    border-bottom-right-radius: 100%;
+    width: 95%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.img-2 {
+    border-top-left-radius: 100%;
+    width: 95%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/* cards */
+
+section.cards {
+    padding: 50px 0;
+}
+
+section.cards .card {
+    padding: 25px 40px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.cards .card-body {
+    padding: 0;
+}
+
+.img-container {
+    object-fit: cover;
+}
+
+.img-container img {
+    object-fit: cover;
+}
+
+.custom-btn {
+    position: relative;
+    padding-bottom: 7px;
+    overflow: hidden;
+}
+
+.custom-btn::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 40%;
+    background-color: #dc3545;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+
+.custom-btn:hover::after {
+    width: 100%;
+}
+
+/* games cards section */
+
+section.games {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+/* newsletter section */
+
+section.newsletter {
+    padding: 80px 0;
+}
+
+.newsletter input {
+    height: 70px;
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 0px 30px;
+}
+
+.newsletter input::placeholder {
+    font-family: "Bubblegum Sans";
+}
+
+.newsletter button {
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 991.8px) {
+    .hero-text {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 720px) {
+    .hero-text {
+        font-size: 40px !important;
+    }
+    .hero-sub {
+        font-size: 30px !important;
+    }
+}

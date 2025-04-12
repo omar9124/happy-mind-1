@@ -1,0 +1,18 @@
+
+.sign-page {
+    padding: 50px;
+}
+.input-txt {
+    background-color: rgb(255, 245, 232);
+}
+ input {
+    height:50px;
+    border-radius: 40px;
+    font-size: 25px;
+    padding: 0px 30px;
+    margin: 10px;
+    border: 1px solid rgb(243, 75, 75) !important;
+}
+input::placeholder {
+    font-family: "Bubblegum Sans";
+}
